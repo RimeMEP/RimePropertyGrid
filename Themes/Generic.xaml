@@ -1,0 +1,27 @@
+<ResourceDictionary
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:core="clr-namespace:RimeControls.Core">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Themes/Generic/Brushes.xaml"/>
+        <ResourceDictionary Source="/Themes/Generic/Buttons.xaml"/>
+        <ResourceDictionary Source="/Themes/Generic/Common.xaml"/>
+
+
+        <ResourceDictionary Source="/CollectionControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/ButtonSpinnerControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/CheckComboBoxControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/Chromes/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/ColorPickerControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/DateTimeUpDownControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/NumericUpdownControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/Primitives/Themes/Generic/SelectorItem.xaml"/>
+        <ResourceDictionary Source="/Primitives/Themes/Generic/WindowControl.xaml"/>
+        <ResourceDictionary Source="/PropertyGrid/Styles/PgStyle2.xaml"/>
+        <ResourceDictionary Source="/TextBoxControls/WatermarkTextBoxControl/Themes/Generic.xaml"/>
+        <ResourceDictionary Source="/TimeSpanUpDownControl/Themes/Generic.xaml"/>
+
+
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>

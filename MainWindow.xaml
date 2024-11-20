@@ -1,0 +1,28 @@
+﻿<Window x:Class="RimeControls.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RimeControls"
+        xmlns:intUD ="clr-namespace:RimeControls.NumericUpDownControl.Implementation"
+        xmlns:xceed="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:Pg="clr-namespace:RimeControls.PropertyGrid"
+        xmlns:NumericUpDown ="clr-namespace:RimeControls.NumericUpDownControl.Implementation"
+        xmlns:bttnSpinner ="clr-namespace:RimeControls.ButtonSpinnerControl.Implementation"
+        xmlns:txBox ="clr-namespace:RimeControls.TextBoxControls.WatermarkTextboxControl.Implementation" 
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Pg:RimePropertyGrid
+            x:Name ="_pg1"
+            ShowSearchBox="False"
+            ShowAdvancedOptions="False"
+            ShowSortOptions="False"
+            SelectedObjectName="Person"
+            Grid.Column="0"
+            Grid.Row="1"
+          />
+
+    </Grid>
+</Window>

@@ -1,0 +1,140 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>RimeControls</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ButtonSpinnerControl\Implementation\ButtonSpinner.Icon.bmp" />
+    <None Remove="ColorCanvasControl\Implementation\ColorCanvas.Icon.bmp" />
+    <None Remove="MultiLineTextEditor Control\Implementation\MultiLineTextEditor.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\ByteUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\DecimalUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\DoubleUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\IntegerUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\LongUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\SByteUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\ShortUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\SingleUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\UIntegerUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\ULongUpDown.Icon.bmp" />
+    <None Remove="NumericUpDownControl\Implementation\UShortUpDown.Icon.bmp" />
+    <None Remove="PropertyGrid\Images\AdvancedProperties11.png" />
+    <None Remove="PropertyGrid\Images\Categorize16.png" />
+    <None Remove="PropertyGrid\Images\ClearFilter16.png" />
+    <None Remove="PropertyGrid\Images\ClearFilter16_Green.png" />
+    <None Remove="PropertyGrid\Images\ClearFilter16_White.png" />
+    <None Remove="PropertyGrid\Images\Database11.png" />
+    <None Remove="PropertyGrid\Images\Inheritance11.png" />
+    <None Remove="PropertyGrid\Images\Local11.png" />
+    <None Remove="PropertyGrid\Images\Resource11.png" />
+    <None Remove="PropertyGrid\Images\SortAscending16.png" />
+    <None Remove="PropertyGrid\Images\SortAscending16_White.png" />
+    <None Remove="PropertyGrid\Images\Style11.png" />
+    <None Remove="WatermarkComboBox\Implementation\WatermarkComboBox.Icon.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CollectionControl\Images\" />
+    <Folder Include="Core\Media\Animation\" />
+    <Folder Include="PropertyGrid\Implementation\Definitions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ButtonSpinnerControl\Implementation\ButtonSpinner.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ColorCanvasControl\Implementation\ColorCanvas.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="MultiLineTextEditor Control\Implementation\MultiLineTextEditor.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\ByteUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\DecimalUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\DoubleUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\IntegerUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\LongUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\SByteUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\ShortUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\SingleUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\UIntegerUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\ULongUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="NumericUpDownControl\Implementation\UShortUpDown.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\AdvancedProperties11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\Categorize16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\ClearFilter16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\ClearFilter16_Green.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\ClearFilter16_White.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\Database11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\Inheritance11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\Local11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\Resource11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\SortAscending16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\SortAscending16_White.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PropertyGrid\Images\Style11.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="WatermarkComboBox\Implementation\WatermarkComboBox.Icon.bmp">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ButtonSpinnerControl\Themes\Generic.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+</Project>
